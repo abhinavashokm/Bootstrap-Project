@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhinav Ashok</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon"
+    href="data:image/png;base64,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"
+    type="image/x-icon">
+</head>
+
+<body>
+  <style>
+    .card {
+      margin: 0 auto;
+      /* Added */
+      float: none;
+      /* Added */
+      margin-bottom: 10px;
+      /* Added */
+    }
+  </style>
+  <header class="bg-info text-white" style="position: fixed; z-index: 1; width: 100%; height: 4em;">
+    <div class="row">
+      <div class="col-9 col-md-6 p-3 pl-5">
+        <h2 class="textCol navbar-brand font-weight-bold font-size: 24px;">Abhinav Ashok</h2>
+      </div>
+      <div class="col-3 col-md-6  p-3 my-auto  ">
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+
+          <button class="navbar-toggler  ml-auto " type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation" id="tooggle-Btn">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto">
+              <li class="nav-item active ">
+                <a class="nav-link text-white " href="#home-Section">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-white" href="#skills-Section">Skills</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-white " href="#contact-Section">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="p-5" id="home-Section">
+    <div class="container" style="padding-top: 8em;">
+      <div class="row align-items-center ">
+        <div class="col-12 col-md-6 text-center ">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeeUl9IZDN97pBQNgeunx6dD1df-4g7vkPFw&usqp=CAU"
+            alt="something went wrong" class="img-responsive">
+        </div>
+        <div class="col-md-6 pt-3 ">
+          <h4>Hi there I am Abhinav Ashok <br></h4>
+          <p>"I am into Web develop😊😊"
+          </p>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light " id="skills-Section">
+    <div style="padding-top: 4em;">
+      <h1 class="text-center ">Skills</h1>
+    </div>
+    <div class="container">
+      <div class="row p-3 ">
+
+        <div class="col-md-6 col-lg-4 mx-auto pt-3">
+          <div class="card text-center pt-3" style="width: 18rem; height: 18rem;">
+            <i class="fa-brands fa-html5 display-1 text-info"></i>
+            <div class="card-body">
+              <h5 class="card-title">HTML</h5>
+              <p class="card-text">HyperText Markup Language is the most basic building block of the Web. It defines the
+                meaning and structure of web content</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 pt-3">
+          <div class="card text-center pt-3" style="width: 18rem; height: 18rem;">
+            <i class="fa-brands fa-css3-alt display-1 text-info"></i>
+            <div class="card-body">
+              <h5 class="card-title">CSS</h5>
+              <p class="card-text">Cascading Style Sheets is a stylesheet language used to describe the presentation of
+                a document written in HTML or XML</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 pt-3">
+          <div class="card text-center pt-3" style="width: 18rem;  height: 18rem;">
+            <i class="fa-brands fa-js-square text-info display-1"></i>
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text">Javascript (JS) is a scripting languages, primarily used on the Web</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 pt-3">
+          <div class="card pt-3 text-center" style="width: 18rem; height: 18rem;">
+            <i class="fa-solid fa-dollar-sign display-1 text-info"></i>
+            <div class="card-body">
+              <h5 class="card-title">jquery</h5>
+              <p class="card-text">jQuery is a JavaScript library designed to simplify HTML</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 col-lg-4 pt-3">
+          <div class="card text-center pt-3" style="width: 18rem; height: 18rem;">
+            <i class="fa-brands fa-bootstrap text-info display-1"></i>
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap</h5>
+              <p class="card-text">Bootstrap is the most popular HTML, CSS and JavaScript framework for developing a
+                responsive and mobile friendly website</p>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- <section class="bg-white" id="webdevelopment-Section">  activate after completing webdevelopment challenge
+      <div class="container">
+        <div style="padding-top: 6em;">
+        <h1 class="text-center text-info">Education</h1>
+      </div>
+        <div class="row p-3">
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card" style="width: 18rem;">
+              <img src="http://www.mcicon.com/wp-content/uploads/2020/12/Education_Pen_1-copy-13.jpg"class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Marketing</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card" style="width: 18rem;">
+                <img src="http://www.mcicon.com/wp-content/uploads/2020/12/Education_Pen_1-copy-13.jpg"class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Marketing</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+
+              <div class="col-md-6 col-lg-4">
+                <a href="https://getbootstrap.com/docs/4.0/utilities/colors/" style="text-decoration: none; color: black;">
+                <div class="card" style="width: 18rem;">
+                  <img src="http://www.mcicon.com/wp-content/uploads/2020/12/Education_Pen_1-copy-13.jpg"class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Marketing</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </a>
+              </div>
+
+
+        </div>
+      </div>
+
+     </section> -->
+
+
+  <section class="bg-white" style="width: 100%; margin-top: 5em;" id="contact-Section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput">Full Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Email</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2"
+                placeholder="enter your email address">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Message</label>
+
+              <textarea cols="30" rows="10" class="form-control " placeholder="enter your message here"></textarea>
+              <button type="submit" class="btn btn-primary text-center"
+                style="width: 100%; margin-top: 1em;">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="text-center pt-3" style="height: 8em; background-color:#2fcfde;">
+    <div class="row">
+      <div class="col-12">
+        <h4>Copyrights</h4>
+        <i class=" fa-facebook fa-brands "></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/20c13cd6e9.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
